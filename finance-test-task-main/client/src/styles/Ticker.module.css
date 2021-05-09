@@ -17,66 +17,7 @@
     border: 1px solid rgb(236, 236, 236);
     border-radius: 8px;
     overflow: hidden;
-
-}
-
-.ticker {
-    width: 11%;
-    color: white;
     
+
 }
-
-.exchange {
-    width: 15%;  
-    font-weight: lighter;
-}
-
-.price {
-    width: 11%;
-}
-
-.change {
-    width: 11%;
-    color: #137333;
-    background-color: #e6f4ea;
-}
-
-.percent {
-   
-    width: 11%;
-    background: #fce8e6;
-    color: #c5221f;
-    
-    
-}
-
-.dividend {
-    width: 11%;
-}
-
-
-.yield {
-    width: 11%;
-}
-
-.svg_down {
-    
-    color: #c5221f;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    fill: currentColor;
-    flex-shrink: 0;
-}
-
-.svg_up {
-    
-    color: #137333;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    fill: currentColor;
-    flex-shrink: 0;
-}
-
 
