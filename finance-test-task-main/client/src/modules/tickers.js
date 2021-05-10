@@ -1,4 +1,6 @@
+const UPDATE_TICKERS = "UPDATE_TICKERS";
 
+export const updateTickers = json => ({ type: UPDATE_TICKERS, payload: json });
 
 let initialState = {
     tickers: [
@@ -9,7 +11,7 @@ let initialState = {
         { "ticker": "FB", "exchange": "NASDAQ", "price": 266.77, "change": 171.92, "change_percent": 0.75, "dividend": 0.52, "yield": 1.31, "last_trade_time": "2021-04-30T11:53:21.000Z" },
         { "ticker": "TSLA", "exchange": "NASDAQ", "price": 272.13, "change": 158.76, "change_percent": 0.10, "dividend": 0.96, "yield": 1.00, "last_trade_time": "2021-04-30T11:53:21.000Z" }
     ],
-    backgound: ['#E31937', '#0231a0', '#d55e00', '#666666', '#50912a', '#0d0a08', '#1c8bbb'],
+    background: ['#E31937', '#0231a0', '#d55e00', '#666666', '#50912a', '#0d0a08', '#1c8bbb'],
 };
 
 export const tickersReducer = (state = initialState, action) => {
@@ -17,18 +19,9 @@ export const tickersReducer = (state = initialState, action) => {
     switch (action.type) {
         case UPDATE_TICKERS:
             return { ...state, tickers: action.payload }
-
-         
-
         default: return state
     }
 }
 
-export const updateTickers = (payload) => {
-    return { type: UPDATE_TICKERS, payload }
-};
 
-
-
-const UPDATE_TICKERS = "UPDATE_TICKERS";
 
