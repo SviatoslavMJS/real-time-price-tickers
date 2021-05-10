@@ -1,10 +1,12 @@
 .container {
-    
+    display: block;
     border-top: 2px solid #dadce0;
-    height: 55px;
-    min-width: 60%;
+    height: 53px;
+    width: 97%;
     font-weight: bold ;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin: auto;
+   
 }
 
 .container div {
@@ -16,8 +18,6 @@
     padding-top: 7px;
     border: 1px solid rgb(236, 236, 236);
     border-radius: 8px;
-    overflow: hidden;
-    
-
+    overflow: hidden;   
 }
 

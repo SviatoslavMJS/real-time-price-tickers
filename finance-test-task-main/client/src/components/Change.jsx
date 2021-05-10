@@ -6,7 +6,7 @@ function Change(props) {
 
     return (
         <div className={s.change}>
-           {(true) ? <ArrowUp /> : <ArrowDown />} 
+         {(true) ? <ArrowUp /> : <ArrowDown />} 
             {props.change}
         </div>
     )

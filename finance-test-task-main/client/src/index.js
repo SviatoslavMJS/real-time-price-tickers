@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import store from './redux/store';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App state={store.getState().tickersState} />
   </React.StrictMode>,
   document.getElementById('root')
 );

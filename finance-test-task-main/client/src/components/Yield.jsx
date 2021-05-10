@@ -1,11 +1,10 @@
 import s from '../styles/Yield.module.css';
-import ArrowDown from './ArrowDown';
 
 function Yield(props) {
 
     return (
-        <div className={true? s.yieldGreen : s.yieldRed}>
-            {props.yield}
+        <div className={false? s.yieldGreen : s.yieldRed}>
+            {'+ ' + props.yield}
         </div>
     )
 }
