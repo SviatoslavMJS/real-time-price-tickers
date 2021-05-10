@@ -11,16 +11,17 @@ function Ticker(props) {
 
     const ticker = props.ticker;
     const color = props.color;
+    const vector = props.vector;
 
     return (
         <div className={s.container}>
             <Company ticker={ticker.ticker} color={color} />
             <Exchange exchange={ticker.exchange} />
             <Price price={ticker.price} />
-            <Change change={ticker.change} />
-            <Percent percent={ticker.change_percent} />
-            <Dividend dividend={ticker.dividend} />
-            <Yield yield={ticker.yield} />
+            <Change change={ticker.change} vector={vector} />
+            <Percent percent={ticker.change_percent} vector={vector} />
+            <Dividend dividend={ticker.dividend} vector={vector} />
+            <Yield yield={ticker.yield} vector={vector} />
         </div>
     )
 }

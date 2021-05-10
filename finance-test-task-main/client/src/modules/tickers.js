@@ -12,13 +12,24 @@ let initialState = {
         { "ticker": "TSLA", "exchange": "NASDAQ", "price": 272.13, "change": 158.76, "change_percent": 0.10, "dividend": 0.96, "yield": 1.00, "last_trade_time": "2021-04-30T11:53:21.000Z" }
     ],
     background: ['#E31937', '#0231a0', '#d55e00', '#666666', '#50912a', '#0d0a08', '#1c8bbb'],
+    isIncreased: [true, true, true, true, true, true],
 };
 
 export const tickersReducer = (state = initialState, action) => {
 
     switch (action.type) {
-        case UPDATE_TICKERS:
-            return { ...state, tickers: action.payload }
+        case UPDATE_TICKERS: {
+
+            let isIncreasedCopy = [...state.isIncreased];
+            const prewTickers = [...state.tickers];
+            const nextTickers = [...action.payload];
+
+            for (let i = 0; i < prewTickers.length; i++) {
+                nextTickers[i].price > prewTickers[i].price ? isIncreasedCopy[i] = true : isIncreasedCopy[i] = false
+            }
+
+            return { ...state, tickers: action.payload, isIncreased: isIncreasedCopy }
+        }
         default: return state
     }
 }

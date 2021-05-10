@@ -4,10 +4,16 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { wsConnect } from "../modules/websocket";
 
-function App({ tickers, background }) {
+
+function App({ tickers, background, isIncreased }) {
 
   let table = tickers.map((item, index) => {
-    return <Ticker key={item.ticker} ticker={item} color={background[index]} />
+    return <Ticker
+      key={item.ticker}
+      ticker={item}
+      color={background[index]}
+      vector={isIncreased[index]}
+    />
   });
 
   return (
@@ -21,14 +27,16 @@ App.propTypes = {
   tickers: PropTypes.array,
   background: PropTypes.array,
   dispatch: PropTypes.func,
+  isIncreased: PropTypes.array,
 };
 
 const mapStateToProps = (state, ownProps) => {
-  const { tickers, background } = state.tickersState;
+  const { tickers, background, isIncreased } = state.tickersState;
 
   return {
     tickers: tickers || [],
     background: background || [],
+    isIncreased: isIncreased || [],
   }
 };
 

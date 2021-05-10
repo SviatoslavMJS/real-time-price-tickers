@@ -4,8 +4,8 @@ import s from '../styles/Change.module.css';
 
 function Change(props) {
     return (
-        <div className={s.change}>
-            {(true) ? <ArrowUp /> : <ArrowDown />}
+        <div className={props.vector ? s.green : s.red}>
+            { props.vector ? <ArrowUp /> : <ArrowDown />}
             {props.change}
         </div>
     )

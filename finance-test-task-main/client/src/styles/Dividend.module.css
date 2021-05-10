@@ -1,13 +1,12 @@
-.dividend {
-    width: 12%;
-}
 
 .green {
+    width: 12%;
     color: #137333;
-    background-color: #e6f4ea;
+    background-color: #bde7c9;
 }
 
 .red {
-    background: #fce8e6;
+    width: 12%;
+    background: #f1d5d3;;
     color: #c5221f;
 }

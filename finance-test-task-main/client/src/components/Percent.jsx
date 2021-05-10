@@ -4,8 +4,8 @@ import s from '../styles/Percent.module.css';
 
 function Percent(props) {
     return (
-        <div className={s.percent}>
-            {(false) ? <ArrowUp /> : <ArrowDown />}
+        <div className={props.vector ? s.green: s.red}>
+            {(props.vector) ? <ArrowUp /> : <ArrowDown />}
             {props.percent + ' %'}
         </div>
     )
