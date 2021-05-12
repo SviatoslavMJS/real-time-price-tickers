@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop color in Company style color must be changed from #666666 to #0d0a08 1`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;
+
+exports[`On change prop color in Company style color must be changed from #666666 to #0d0a08 2`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;
+
+exports[`On change prop color in Company style color must be changed from #666666 to #0d0a08 3`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;
+
+exports[`On change prop company in Company text must change from APPL to SSSR 1`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;
+
+exports[`On change prop company in Company text must change from APPL to SSSR 2`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;
+
+exports[`On change prop company in Company text must change from APPL to SSSR 3`] = `
+<div
+  className="ticker"
+  style={
+    Object {
+      "backgroundColor": "#666666",
+    }
+  }
+/>
+`;

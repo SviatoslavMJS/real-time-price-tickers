@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop exchange Exchange text must change from 666 to 000 1`] = `
+<div
+  className="exchange"
+>
+  666
+</div>
+`;
+
+exports[`On change prop exchange Exchange text must change from 666 to 000 2`] = `
+<div
+  className="exchange"
+>
+  666
+</div>
+`;
+
+exports[`On change prop exchange Exchange text must change from 666 to 000 3`] = `
+<div
+  className="exchange"
+>
+  666
+</div>
+`;

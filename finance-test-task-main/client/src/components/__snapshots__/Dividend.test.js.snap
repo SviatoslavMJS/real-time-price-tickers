@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop dividend Dividend text must change from 666 to 000 1`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;
+
+exports[`On change prop dividend Dividend text must change from 666 to 000 2`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;
+
+exports[`On change prop dividend Dividend text must change from 666 to 000 3`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;
+
+exports[`On change prop vector Dividend class must change from green to red 1`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;
+
+exports[`On change prop vector Dividend class must change from green to red 2`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;
+
+exports[`On change prop vector Dividend class must change from green to red 3`] = `
+<div
+  className="green"
+>
+  666
+</div>
+`;

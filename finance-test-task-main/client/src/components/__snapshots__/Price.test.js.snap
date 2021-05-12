@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop price in Price text must change from 279.29 to 89 1`] = `
+<div
+  className="price"
+>
+  $ 279.29
+</div>
+`;
+
+exports[`On change prop price in Price text must change from 279.29 to 89 2`] = `
+<div
+  className="price"
+>
+  $ 279.29
+</div>
+`;
+
+exports[`On change prop price in Price text must change from 279.29 to 89 3`] = `
+<div
+  className="price"
+>
+  $ 279.29
+</div>
+`;

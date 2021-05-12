@@ -2,7 +2,7 @@ import s from "../styles/Ticker.module.css";
 import Change from "./Change";
 import Company from "./Company";
 import Dividend from "./Dividend";
-import Exchange from "./Exchage";
+import Exchange from "./Exchange";
 import Percent from "./Percent";
 import Price from "./Price";
 import Yield from "./Yield";

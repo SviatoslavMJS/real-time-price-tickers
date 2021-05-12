@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop change in Change text must change from 111 to 999 1`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;
+
+exports[`On change prop change in Change text must change from 111 to 999 2`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;
+
+exports[`On change prop change in Change text must change from 111 to 999 3`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;
+
+exports[`On change prop vector in Change class must change from green to red / child component from ArrowUp to ArrowDown 1`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;
+
+exports[`On change prop vector in Change class must change from green to red / child component from ArrowUp to ArrowDown 2`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;
+
+exports[`On change prop vector in Change class must change from green to red / child component from ArrowUp to ArrowDown 3`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111
+</div>
+`;

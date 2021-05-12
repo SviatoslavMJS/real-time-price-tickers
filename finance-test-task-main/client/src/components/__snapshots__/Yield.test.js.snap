@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop vector in Yield class must change from green to red / text from +1.34 to -1.34 1`] = `
+<div
+  className="yieldGreen"
+>
+  + 1.34
+</div>
+`;
+
+exports[`On change prop vector in Yield class must change from green to red / text from +1.34 to -1.34 2`] = `
+<div
+  className="yieldGreen"
+>
+  + 1.34
+</div>
+`;
+
+exports[`On change prop vector in Yield class must change from green to red / text from +1.34 to -1.34 3`] = `
+<div
+  className="yieldGreen"
+>
+  + 1.34
+</div>
+`;
+
+exports[`On change prop yield in Yield text must change from 222 to 555 1`] = `
+<div
+  className="yieldGreen"
+>
+  + 222
+</div>
+`;
+
+exports[`On change prop yield in Yield text must change from 222 to 555 2`] = `
+<div
+  className="yieldGreen"
+>
+  + 222
+</div>
+`;
+
+exports[`On change prop yield in Yield text must change from 222 to 555 3`] = `
+<div
+  className="yieldGreen"
+>
+  + 222
+</div>
+`;

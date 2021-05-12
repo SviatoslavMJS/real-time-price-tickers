@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop color in Ticker component Company must change style color 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop color in Ticker component Company must change style color 2`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop color in Ticker component Company must change style color 3`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop ticker in Ticker child components must change Text content 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop ticker in Ticker child components must change Text content 2`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop ticker in Ticker child components must change Text content 3`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop vector in Ticker child components must change class names 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop vector in Ticker child components must change class names 2`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;
+
+exports[`On change prop vector in Ticker child components must change class names 3`] = `
+<div
+  className="container"
+>
+  <div
+    className="ticker"
+    style={
+      Object {
+        "backgroundColor": "#666666",
+      }
+    }
+  >
+    AMZN
+  </div>
+  <div
+    className="exchange"
+  >
+    NASDAQ
+  </div>
+  <div
+    className="price"
+  >
+    $ 260.34
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    128.71
+  </div>
+  <div
+    className="green"
+  >
+    <svg
+      className="svg_up"
+    >
+      <path
+        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+      />
+    </svg>
+    0.6 %
+  </div>
+  <div
+    className="green"
+  >
+    0.07
+  </div>
+  <div
+    className="yieldGreen"
+  >
+    + 0.42
+  </div>
+</div>
+`;

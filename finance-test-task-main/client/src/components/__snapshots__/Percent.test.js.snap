@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On change prop percent in Percent text must change from 111 to 999 1`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
+
+exports[`On change prop percent in Percent text must change from 111 to 999 2`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
+
+exports[`On change prop percent in Percent text must change from 111 to 999 3`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
+
+exports[`On change prop vector in Percent class must change from green to red 1`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
+
+exports[`On change prop vector in Percent class must change from green to red 2`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
+
+exports[`On change prop vector in Percent class must change from green to red 3`] = `
+<div
+  className="green"
+>
+  <svg
+    className="svg_up"
+  >
+    <path
+      d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+    />
+  </svg>
+  111 %
+</div>
+`;
